@@ -7,8 +7,8 @@ public abstract class Aplicant{
 	protected int punctaj;
 	protected int nr_proiecte;
 	protected String[] denumireProiect;
-	
-	
+
+
 	public String getNume() {
 		return nume;
 	}
@@ -32,17 +32,18 @@ public abstract class Aplicant{
 			System.out.println("Aplicantul "+nume+" "+prenume+" a fost acceptat.");
 		else
 			System.out.println("Aplicantul "+nume+" "+prenume+" nu a fost acceptat.");
-		}
+	}
 	public int getPunctaj() {
 		return punctaj;
 	}
 	public void setPunctaj(int punctaj) {
 		this.punctaj = punctaj;
 	}
-	
-	
 
-	
+	public void setDenumireProiect(String[] denumireProiect) {
+		this.denumireProiect = denumireProiect;
+	}
+
 	public Aplicant() {
 		super();
 		// TODO Auto-generated constructor stub
