@@ -40,4 +40,13 @@ public class Papa {
     public void setAlCatelea(int alCatelea) {
         this.alCatelea = alCatelea;
     }
+
+    @Override
+    public String toString() {
+        return "Papa{" +
+                "nume='" + nume + '\'' +
+                ", nrAniFunctie=" + nrAniFunctie +
+                ", alCatelea=" + alCatelea +
+                '}';
+    }
 }
