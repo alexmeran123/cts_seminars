@@ -1,4 +1,6 @@
-package testare;
+package testare.model;
+
+import testare.NenascutException;
 
 public interface IPersoana {
 	public String getSex();

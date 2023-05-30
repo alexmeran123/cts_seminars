@@ -1,5 +1,7 @@
-package testare;
+package testare.model;
 
+
+import testare.NenascutException;
 
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;

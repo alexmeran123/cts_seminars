@@ -1,6 +1,8 @@
-package testare;
+package testare.unitstests;
 
 import org.junit.Test;
+import testare.NenascutException;
+import testare.model.Persoana;
 
 import static org.junit.Assert.*;
 
